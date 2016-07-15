@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6920AA071D3026A60073B3B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6920A9EF1D3026A60073B3B7 /* Info.plist */; };
+		6920AA081D3026A60073B3B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6920A9F21D3026A60073B3B7 /* AppDelegate.m */; };
+		6920AA091D3026A60073B3B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6920A9F31D3026A60073B3B7 /* main.m */; };
+		6920AA0A1D3026A60073B3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6920A9F71D3026A60073B3B7 /* Assets.xcassets */; };
+		6920AA0B1D3026A60073B3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6920A9FA1D3026A60073B3B7 /* LaunchScreen.storyboard */; };
+		6920AA0C1D3026A60073B3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6920A9FC1D3026A60073B3B7 /* Main.storyboard */; };
+		6920AA101D303C710073B3B7 /* Atleta.m in Sources */ = {isa = PBXBuildFile; fileRef = 6920AA0F1D303C710073B3B7 /* Atleta.m */; };
+		6920AA131D303E860073B3B7 /* Liga.m in Sources */ = {isa = PBXBuildFile; fileRef = 6920AA121D303E860073B3B7 /* Liga.m */; };
+		694F84F61D368A2600324B6E /* Posicao.m in Sources */ = {isa = PBXBuildFile; fileRef = 694F84F51D368A2600324B6E /* Posicao.m */; };
+		694F84F91D36AD3700324B6E /* Clube.m in Sources */ = {isa = PBXBuildFile; fileRef = 694F84F81D36AD3700324B6E /* Clube.m */; };
+		694F84FC1D36C2F200324B6E /* ListaParcialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694F84FB1D36C2F200324B6E /* ListaParcialViewController.m */; };
+		69770CFD1D355295007EB122 /* ListaTimeUsuarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770CFC1D355295007EB122 /* ListaTimeUsuarioViewController.m */; };
+		69770D001D35552D007EB122 /* CartolaService.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770CFF1D35552D007EB122 /* CartolaService.m */; };
+		69770D041D35567E007EB122 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770D031D35567E007EB122 /* JsonParser.m */; };
+		69770D091D356286007EB122 /* AtletaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770D071D356286007EB122 /* AtletaCell.m */; };
+		69770D0A1D356286007EB122 /* AtletaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69770D081D356286007EB122 /* AtletaCell.xib */; };
+		69770D0D1D356669007EB122 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770D0C1D356669007EB122 /* NSString+Utils.m */; };
+		69770D101D356CCE007EB122 /* DownloadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770D0F1D356CCE007EB122 /* DownloadImageView.m */; };
+		69770D131D3570F5007EB122 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770D121D3570F5007EB122 /* LoginViewController.m */; };
+		69770D161D357277007EB122 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 69770D151D357277007EB122 /* Usuario.m */; };
+		6979C2601D38093400A66DE5 /* CartolaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6979C25E1D38093400A66DE5 /* CartolaModel.xcdatamodeld */; };
+		6979C2651D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979C2621D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.m */; };
+		6979C2661D380A4C00A66DE5 /* UsuarioEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979C2641D380A4C00A66DE5 /* UsuarioEntity.m */; };
+		6979C26B1D380AFC00A66DE5 /* CartolaDBCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6979C26A1D380AFC00A66DE5 /* CartolaDBCoreData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6920A9D41D3025A90073B3B7 /* iCartolando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCartolando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6920A9EF1D3026A60073B3B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6920A9F11D3026A60073B3B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6920A9F21D3026A60073B3B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6920A9F31D3026A60073B3B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6920A9F71D3026A60073B3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6920A9FB1D3026A60073B3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6920A9FD1D3026A60073B3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6920AA0E1D303C710073B3B7 /* Atleta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atleta.h; sourceTree = "<group>"; };
+		6920AA0F1D303C710073B3B7 /* Atleta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atleta.m; sourceTree = "<group>"; };
+		6920AA111D303E860073B3B7 /* Liga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Liga.h; sourceTree = "<group>"; };
+		6920AA121D303E860073B3B7 /* Liga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Liga.m; sourceTree = "<group>"; };
+		694F84F41D368A2600324B6E /* Posicao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posicao.h; sourceTree = "<group>"; };
+		694F84F51D368A2600324B6E /* Posicao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posicao.m; sourceTree = "<group>"; };
+		694F84F71D36AD3700324B6E /* Clube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clube.h; sourceTree = "<group>"; };
+		694F84F81D36AD3700324B6E /* Clube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clube.m; sourceTree = "<group>"; };
+		694F84FA1D36C2F200324B6E /* ListaParcialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaParcialViewController.h; sourceTree = "<group>"; };
+		694F84FB1D36C2F200324B6E /* ListaParcialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaParcialViewController.m; sourceTree = "<group>"; };
+		69770CFB1D355294007EB122 /* ListaTimeUsuarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaTimeUsuarioViewController.h; sourceTree = "<group>"; };
+		69770CFC1D355295007EB122 /* ListaTimeUsuarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaTimeUsuarioViewController.m; sourceTree = "<group>"; };
+		69770CFE1D35552D007EB122 /* CartolaService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartolaService.h; sourceTree = "<group>"; };
+		69770CFF1D35552D007EB122 /* CartolaService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartolaService.m; sourceTree = "<group>"; };
+		69770D021D35567E007EB122 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		69770D031D35567E007EB122 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		69770D061D356286007EB122 /* AtletaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtletaCell.h; sourceTree = "<group>"; };
+		69770D071D356286007EB122 /* AtletaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtletaCell.m; sourceTree = "<group>"; };
+		69770D081D356286007EB122 /* AtletaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AtletaCell.xib; sourceTree = "<group>"; };
+		69770D0B1D356669007EB122 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		69770D0C1D356669007EB122 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		69770D0E1D356CCE007EB122 /* DownloadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImageView.h; sourceTree = "<group>"; };
+		69770D0F1D356CCE007EB122 /* DownloadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImageView.m; sourceTree = "<group>"; };
+		69770D111D3570F5007EB122 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		69770D121D3570F5007EB122 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		69770D141D357277007EB122 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		69770D151D357277007EB122 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		6979C25F1D38093400A66DE5 /* CartolaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartolaModel.xcdatamodel; sourceTree = "<group>"; };
+		6979C2611D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UsuarioEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6979C2621D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UsuarioEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6979C2631D380A4C00A66DE5 /* UsuarioEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioEntity.h; sourceTree = "<group>"; };
+		6979C2641D380A4C00A66DE5 /* UsuarioEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioEntity.m; sourceTree = "<group>"; };
+		6979C2691D380AFC00A66DE5 /* CartolaDBCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartolaDBCoreData.h; sourceTree = "<group>"; };
+		6979C26A1D380AFC00A66DE5 /* CartolaDBCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartolaDBCoreData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6920A9D11D3025A80073B3B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6920A9CB1D3025A80073B3B7 = {
+			isa = PBXGroup;
+			children = (
+				6920A9D61D3025A90073B3B7 /* iCartolando */,
+				6920A9D51D3025A90073B3B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6920A9D51D3025A90073B3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9D41D3025A90073B3B7 /* iCartolando.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6920A9D61D3025A90073B3B7 /* iCartolando */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9EE1D3026A60073B3B7 /* Config */,
+				6920A9F01D3026A60073B3B7 /* Misc */,
+				6920A9F41D3026A60073B3B7 /* Resources */,
+				6920A9FF1D3026A60073B3B7 /* Sources */,
+			);
+			path = iCartolando;
+			sourceTree = "<group>";
+		};
+		6920A9EE1D3026A60073B3B7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9EF1D3026A60073B3B7 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6920A9F01D3026A60073B3B7 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9F11D3026A60073B3B7 /* AppDelegate.h */,
+				6920A9F21D3026A60073B3B7 /* AppDelegate.m */,
+				6920A9F31D3026A60073B3B7 /* main.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		6920A9F41D3026A60073B3B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9F51D3026A60073B3B7 /* html */,
+				6920A9F61D3026A60073B3B7 /* Imagens */,
+				6920A9F81D3026A60073B3B7 /* json */,
+				6920A9F91D3026A60073B3B7 /* UserInterface */,
+				6920A9FE1D3026A60073B3B7 /* xml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6920A9F51D3026A60073B3B7 /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		6920A9F61D3026A60073B3B7 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9F71D3026A60073B3B7 /* Assets.xcassets */,
+			);
+			path = Imagens;
+			sourceTree = "<group>";
+		};
+		6920A9F81D3026A60073B3B7 /* json */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		6920A9F91D3026A60073B3B7 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				6920A9FA1D3026A60073B3B7 /* LaunchScreen.storyboard */,
+				6920A9FC1D3026A60073B3B7 /* Main.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		6920A9FE1D3026A60073B3B7 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
+		6920A9FF1D3026A60073B3B7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6979C25B1D3808E200A66DE5 /* CoreData */,
+				6920AA001D3026A60073B3B7 /* Categorias */,
+				6920AA011D3026A60073B3B7 /* Controllers */,
+				6920AA041D3026A60073B3B7 /* Helpers */,
+				6920AA051D3026A60073B3B7 /* Models */,
+				6920AA061D3026A60073B3B7 /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6920AA001D3026A60073B3B7 /* Categorias */ = {
+			isa = PBXGroup;
+			children = (
+				69770D0B1D356669007EB122 /* NSString+Utils.h */,
+				69770D0C1D356669007EB122 /* NSString+Utils.m */,
+			);
+			path = Categorias;
+			sourceTree = "<group>";
+		};
+		6920AA011D3026A60073B3B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69770D051D35624F007EB122 /* Cells */,
+				69770CFB1D355294007EB122 /* ListaTimeUsuarioViewController.h */,
+				69770CFC1D355295007EB122 /* ListaTimeUsuarioViewController.m */,
+				69770D111D3570F5007EB122 /* LoginViewController.h */,
+				69770D121D3570F5007EB122 /* LoginViewController.m */,
+				694F84FA1D36C2F200324B6E /* ListaParcialViewController.h */,
+				694F84FB1D36C2F200324B6E /* ListaParcialViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6920AA041D3026A60073B3B7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				69770D011D355670007EB122 /* Json */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6920AA051D3026A60073B3B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6920AA0E1D303C710073B3B7 /* Atleta.h */,
+				6920AA0F1D303C710073B3B7 /* Atleta.m */,
+				6920AA111D303E860073B3B7 /* Liga.h */,
+				6920AA121D303E860073B3B7 /* Liga.m */,
+				69770D141D357277007EB122 /* Usuario.h */,
+				69770D151D357277007EB122 /* Usuario.m */,
+				694F84F41D368A2600324B6E /* Posicao.h */,
+				694F84F51D368A2600324B6E /* Posicao.m */,
+				694F84F71D36AD3700324B6E /* Clube.h */,
+				694F84F81D36AD3700324B6E /* Clube.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6920AA061D3026A60073B3B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69770CFE1D35552D007EB122 /* CartolaService.h */,
+				69770CFF1D35552D007EB122 /* CartolaService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69770D011D355670007EB122 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				69770D021D35567E007EB122 /* JsonParser.h */,
+				69770D031D35567E007EB122 /* JsonParser.m */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		69770D051D35624F007EB122 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69770D0E1D356CCE007EB122 /* DownloadImageView.h */,
+				69770D0F1D356CCE007EB122 /* DownloadImageView.m */,
+				69770D061D356286007EB122 /* AtletaCell.h */,
+				69770D071D356286007EB122 /* AtletaCell.m */,
+				69770D081D356286007EB122 /* AtletaCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6979C25B1D3808E200A66DE5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6979C25C1D3808E200A66DE5 /* Entity */,
+				6979C25D1D3808E200A66DE5 /* Manager */,
+				6979C25E1D38093400A66DE5 /* CartolaModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6979C25C1D3808E200A66DE5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6979C2611D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.h */,
+				6979C2621D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.m */,
+				6979C2631D380A4C00A66DE5 /* UsuarioEntity.h */,
+				6979C2641D380A4C00A66DE5 /* UsuarioEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6979C25D1D3808E200A66DE5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6979C2691D380AFC00A66DE5 /* CartolaDBCoreData.h */,
+				6979C26A1D380AFC00A66DE5 /* CartolaDBCoreData.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6920A9D31D3025A80073B3B7 /* iCartolando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6920A9EB1D3025A90073B3B7 /* Build configuration list for PBXNativeTarget "iCartolando" */;
+			buildPhases = (
+				6920A9D01D3025A80073B3B7 /* Sources */,
+				6920A9D11D3025A80073B3B7 /* Frameworks */,
+				6920A9D21D3025A80073B3B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCartolando;
+			productName = iCartolando;
+			productReference = 6920A9D41D3025A90073B3B7 /* iCartolando.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6920A9CC1D3025A80073B3B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cast Group";
+				TargetAttributes = {
+					6920A9D31D3025A80073B3B7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6920A9CF1D3025A80073B3B7 /* Build configuration list for PBXProject "iCartolando" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6920A9CB1D3025A80073B3B7;
+			productRefGroup = 6920A9D51D3025A90073B3B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6920A9D31D3025A80073B3B7 /* iCartolando */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6920A9D21D3025A80073B3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69770D0A1D356286007EB122 /* AtletaCell.xib in Resources */,
+				6920AA0B1D3026A60073B3B7 /* LaunchScreen.storyboard in Resources */,
+				6920AA0A1D3026A60073B3B7 /* Assets.xcassets in Resources */,
+				6920AA071D3026A60073B3B7 /* Info.plist in Resources */,
+				6920AA0C1D3026A60073B3B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6920A9D01D3025A80073B3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6920AA131D303E860073B3B7 /* Liga.m in Sources */,
+				6979C2661D380A4C00A66DE5 /* UsuarioEntity.m in Sources */,
+				69770CFD1D355295007EB122 /* ListaTimeUsuarioViewController.m in Sources */,
+				69770D091D356286007EB122 /* AtletaCell.m in Sources */,
+				6979C2651D380A4C00A66DE5 /* UsuarioEntity+CoreDataProperties.m in Sources */,
+				69770D001D35552D007EB122 /* CartolaService.m in Sources */,
+				69770D161D357277007EB122 /* Usuario.m in Sources */,
+				69770D0D1D356669007EB122 /* NSString+Utils.m in Sources */,
+				69770D101D356CCE007EB122 /* DownloadImageView.m in Sources */,
+				6920AA091D3026A60073B3B7 /* main.m in Sources */,
+				6979C2601D38093400A66DE5 /* CartolaModel.xcdatamodeld in Sources */,
+				6920AA101D303C710073B3B7 /* Atleta.m in Sources */,
+				6979C26B1D380AFC00A66DE5 /* CartolaDBCoreData.m in Sources */,
+				694F84F91D36AD3700324B6E /* Clube.m in Sources */,
+				6920AA081D3026A60073B3B7 /* AppDelegate.m in Sources */,
+				694F84F61D368A2600324B6E /* Posicao.m in Sources */,
+				69770D131D3570F5007EB122 /* LoginViewController.m in Sources */,
+				694F84FC1D36C2F200324B6E /* ListaParcialViewController.m in Sources */,
+				69770D041D35567E007EB122 /* JsonParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6920A9FA1D3026A60073B3B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6920A9FB1D3026A60073B3B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6920A9FC1D3026A60073B3B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6920A9FD1D3026A60073B3B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6920A9E91D3025A90073B3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6920A9EA1D3025A90073B3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6920A9EC1D3025A90073B3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/iCartolando/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cast.iCartolando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6920A9ED1D3025A90073B3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/iCartolando/Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cast.iCartolando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6920A9CF1D3025A80073B3B7 /* Build configuration list for PBXProject "iCartolando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6920A9E91D3025A90073B3B7 /* Debug */,
+				6920A9EA1D3025A90073B3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6920A9EB1D3025A90073B3B7 /* Build configuration list for PBXNativeTarget "iCartolando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6920A9EC1D3025A90073B3B7 /* Debug */,
+				6920A9ED1D3025A90073B3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6979C25E1D38093400A66DE5 /* CartolaModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6979C25F1D38093400A66DE5 /* CartolaModel.xcdatamodel */,
+			);
+			currentVersion = 6979C25F1D38093400A66DE5 /* CartolaModel.xcdatamodel */;
+			path = CartolaModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6920A9CC1D3025A80073B3B7 /* Project object */;
+}
